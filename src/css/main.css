@@ -171,3 +171,77 @@ width: 528px;
     align-items: start;
  }
 }
+/* Why Play Tropic Mania */
+.why-wrapper{
+    border-radius: 32px;
+        padding: 32px;
+        width: 343px;
+        height: 704px;
+        background: #7f44cb;
+        display: flex;
+        flex-direction: column;
+      gap: 32px;  
+}
+.why-title{
+    color: #fff;
+    text-align: left;
+}
+.why-title-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.why-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.why-item{
+    border: 1px solid #ddd;
+        border-radius: 50px;
+        padding: 6px 12px;
+        font-size: 14px;
+            line-height: 1.4;
+            color: #fff;
+}
+.why-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: left;
+    color: #fff;
+    font-size: 16px;
+}
+.why-big{
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 18px;
+}
+@media only screen and (min-width: 1440px) {
+ .why-container{
+    padding-left: 176px;
+    padding-right: 176px;
+ }
+ .why-wrapper{
+    flex-direction: row;
+    padding: 64px;
+        width: 1088px;
+        height: 429px;
+ }
+ .why-text-wrapper{
+    width: 800px;
+font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #fff;
+ }
+ .why-big{
+    font-size: 22px;
+ }
+ .why-title{
+    margin-bottom: 145px;
+ }
+ .why-list{
+    gap: 26px;
+ }
+}
