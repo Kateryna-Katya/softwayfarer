@@ -92,3 +92,28 @@ background: linear-gradient(180deg, #88c626 0%, #527a23 100%);
     width: 864px;
 }
 }
+/* How to Play */
+.how-list{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.how-item{
+    display: flex;
+        flex-direction: column;
+    align-items: center;
+        gap: 32px;
+        font-size: 16px;
+}
+@media only screen and (min-width: 1440px) {
+    .how-list{
+        margin-top: 64px;
+        flex-direction: row;
+        justify-content: center;
+    }
+.how-item{
+    width: 248px;
+    font-size: 18px;
+}
+}
