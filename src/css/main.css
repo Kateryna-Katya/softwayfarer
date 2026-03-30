@@ -75,3 +75,20 @@ background: linear-gradient(180deg, #88c626 0%, #527a23 100%);
             height: 65px;
     }
 }
+/* About the Game */
+.about-container{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+@media only screen and (min-width: 1440px) {
+.about-container {
+        padding-top: 120px;
+        gap: 64px;
+    }
+.about-wrapper{
+    width: 864px;
+}
+}
