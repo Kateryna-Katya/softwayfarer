@@ -386,3 +386,67 @@ background: #ff6b35;
         display: none;
     }
 }
+/* Contact */
+.contact-wrapper{
+    background-image: url("/img/contact/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    border-radius: 32px;
+        padding: 64px 16px;
+        width: 343px;
+        height: 472px;
+}
+.wrapper{
+    border-radius: 24px;
+        padding: 48px 16px;
+        width: 311px;
+        height: 344px;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        align-items: center;
+}
+.contact-link{
+    border-radius: 16px;
+        padding: 8px 12px;
+        width: 279px;
+        height: 69px;
+        box-shadow: 8px 8px 16px 0 rgba(167, 167, 167, 0.16);
+            background: #00a896;
+display: flex;
+justify-content: center;    
+align-items: center;
+gap: 8px;
+color: #fff;
+}
+.contact-title{
+    margin-bottom: 0;
+}
+.mail-img{
+    width: 24px;
+    height: 24px;
+}
+@media only screen and (min-width: 1440px) {
+   .contact-wrapper{
+    background-image: url("/img/contact/desk.png");
+width: 1312px;
+    height: 542px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+.wrapper{
+    width: 529px;
+        height: 414px;
+}
+.contact-link{
+    width: 401px;
+    gap: 30px;
+}
+.mail-img {
+    width: 32px;
+    height: 32px;
+}
+}
